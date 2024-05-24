@@ -1,0 +1,96 @@
+.blog {
+  height: 348px;
+  background: rgb(244, 240, 248);
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 10px;
+}
+.blog h1 {
+  /* Display */
+  color: rgb(35, 37, 54);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: -2px;
+  line-height: 3;
+}
+.blog p {
+  /* Body 1 */
+  color: rgb(109, 110, 118);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.blog h4 {
+  /* Cap 03 */
+  color: rgb(35, 37, 54);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+.search {
+  height: 76px;
+  flex: 1;
+  box-sizing: border-box;
+  border: 1px solid rgba(109, 110, 118, 0.5);
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin-top: 70px;
+}
+.search input {
+  flex: 1;
+  height: 100%;
+  outline: 0;
+  border: 0;
+}
+.blog_box {
+  display: flex;
+  gap: 60px;
+  flex-wrap: wrap;
+  padding-top: 70px;
+}
+.img_text b {
+  /* Cap 1 */
+  color: rgb(89, 46, 169);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.img_text h1 {
+  /* Heading H2 */
+  color: rgb(35, 37, 54);
+
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2px;
+  text-align: left;
+}
+.img_text p {
+  /* Body 1 */
+  color: rgb(109, 110, 118);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.img_text {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}

@@ -1,0 +1,21 @@
+.footer {
+  height: 164px;
+  /* Black */
+  background: rgb(35, 37, 54);
+  margin-top: 80px;
+}
+.foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+.foot p {
+  /* Body 1 */
+  color: rgb(172, 170, 170);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+}
